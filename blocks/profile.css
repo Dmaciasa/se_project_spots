@@ -6,6 +6,7 @@
 
 .profile__avatar {
   margin-right: 20px;
+  border-radius: 8%;
 }
 
 .profile__column {
@@ -15,16 +16,46 @@
 
 .profile__name {
   margin: 0 0 12px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
 }
 
 .profile__description {
   margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #212121b2;
 }
 
 .profile__edit-button {
   margin-top: auto;
+  background-color: transparent;
+  color: #212121;
+  border: none;
+  display: flex;
+  opacity: 70%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 .profile__add-button {
+  width: 149px;
+  height: 52px;
   margin-left: auto;
+  margin-top: auto;
+  border: 2px;
+  border-radius: 8%;
+  background-color: black;
+  color: #fcf5e5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.profile__add-icon {
+  width: 12px;
+  margin-right: 8px;
 }
