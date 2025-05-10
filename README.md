@@ -58,4 +58,4 @@ This project is an interactive social media web application designed to enhance 
 
 ## Deployment
 
-- [Proyect Link:](https://dmaciasa.github.io/se_project_spots/)
+- [Project Link:](https://dmaciasa.github.io/se_project_spots/)
