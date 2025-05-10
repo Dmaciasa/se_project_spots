@@ -9,6 +9,11 @@
   width: 190px;
   margin-right: 20px;
   border-radius: 8%;
+  cursor: pointer;
+}
+
+.profile__avatar:hover {
+  background-color: black;
 }
 
 .profile__column {
@@ -27,6 +32,11 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+
+.profile__name:hover {
+  color: lightblue;
 }
 
 .profile__description {
@@ -41,6 +51,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  cursor: pointer;
 }
 
 .profile__edit-button {
@@ -54,6 +65,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
+  cursor: pointer;
+}
+
+.profile__edit-button:hover {
+  color: black;
 }
 
 .profile__add-button {
@@ -68,6 +84,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
+  cursor: pointer;
+}
+
+.profile__add-button:hover {
+  background-color: gray;
 }
 
 .profile__add-icon {
