@@ -12,10 +12,6 @@
   cursor: pointer;
 }
 
-.profile__avatar:hover {
-  background-color: black;
-}
-
 .profile__column {
   display: flex;
   flex-direction: column;
@@ -27,16 +23,13 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 100%;
+  color: #212121;
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   cursor: pointer;
-}
-
-.profile__name:hover {
-  color: lightblue;
 }
 
 .profile__description {
@@ -55,6 +48,9 @@
 }
 
 .profile__edit-button {
+  display: flex; /* Enables Flexbox */
+  align-items: center; /* Ensures vertical alignment */
+  gap: 8px; /* Adds space between the icon and text */
   margin-top: auto;
   text-align: left;
   padding: 0;
@@ -69,26 +65,31 @@
 }
 
 .profile__edit-button:hover {
-  color: black;
+  opacity: 100%;
 }
 
 .profile__add-button {
   height: 52px;
-  min-width: fit-content;
+  min-width: 157px;
+  padding: 0;
   margin-left: auto;
   margin-top: auto;
-  border: 2px;
-  border-radius: 8%;
+
+  border: 2px solid black;
+  border-radius: 8px;
   background-color: black;
   color: #fcf5e5;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile__add-button:hover {
-  background-color: gray;
+  opacity: 80%;
 }
 
 .profile__add-icon {
@@ -127,7 +128,7 @@
   }
 
   .profile__edit-button {
-    text-align: center;
+    align-self: center;
   }
 
   .profile__add-button {
