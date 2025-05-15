@@ -48,9 +48,9 @@
 }
 
 .profile__edit-button {
-  display: flex; /* Enables Flexbox */
-  align-items: center; /* Ensures vertical alignment */
-  gap: 8px; /* Adds space between the icon and text */
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-top: auto;
   text-align: left;
   padding: 0;
@@ -74,10 +74,9 @@
   padding: 0;
   margin-left: auto;
   margin-top: auto;
-
-  border: 2px solid black;
+  border: none;
   border-radius: 8px;
-  background-color: black;
+  background-color: #212121;
   color: #fcf5e5;
   font-weight: 500;
   font-size: 16px;
@@ -86,6 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
 }
 
 .profile__add-button:hover {
@@ -94,7 +94,7 @@
 
 .profile__add-icon {
   width: 12px;
-  margin-right: 8px;
+  gap: 8px;
 }
 
 @media screen and (max-width: 627px) {
